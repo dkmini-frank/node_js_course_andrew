@@ -9,6 +9,8 @@ const addNotes = (title, body) => {
   const removeDuplicateBook = notes.filter((item) => {
     return item.title !== title;
   });
+
+  debugger;
   removeDuplicateBook.push({
     title: title,
     body: body,
